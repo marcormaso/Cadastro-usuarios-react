@@ -34,6 +34,7 @@ function Home() {
             <div>
               <p>nome: {usuario.nome}</p>
               <p>email: {usuario.email}</p>
+              <p>senha: {usuario.senha}</p>
             </div>
             <button onClick={() => deleteUsuario(usuario.id!)}>
               <img src={Trash} alt="Trash" />

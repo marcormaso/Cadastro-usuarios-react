@@ -31,5 +31,9 @@ public class usuarioController {
     public usuario getUsuarioById(@PathVariable Long id) {
         return usuarioRepository.findById(id).orElse(null);
     }
+    @DeleteMapping("/{id}")
+    public void deleteUsuario(@PathVariable Long id) {
+        usuarioRepository.deleteById(id);
+    }
     
 }

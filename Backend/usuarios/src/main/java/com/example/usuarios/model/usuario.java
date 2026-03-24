@@ -13,13 +13,13 @@ public class usuario {
     private Long id;
 
     @Getter @Setter
-    private String name;
+    private String nome;
 
     @Getter @Setter
     private String email;
 
     @Getter @Setter
-    private String password;
+    private String senha;
 
     
     
